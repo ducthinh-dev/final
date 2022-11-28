@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* background-image: url('./resource/Tokyo2258_24.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; */
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5.5rem;
+}
+
+.wrapper {
+    color: white;
+    width: 70rem;
+}
+
+.wrapper h1 {
+    font-size: 65px;
+}
+
+.wrapper h3 {
+    font-size: 30px;
+}
+
+.wrapper p {
+    font-size: 25px;
+    margin-top: .7rem;
+}
+
+.main-content {
+    background-color: beige;
+    margin: 0 12rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.blog {
+    padding: 0rem 25rem .5rem 5rem;
+}
+
+.blog .blog-header {
+    margin-bottom: 1rem;
+}
+
+.blog .blog-content {
+    margin-bottom: 1.5rem;
+}
+
+.note {
+    background-color: burlywood;
+    margin-left: 5rem;
+    margin-right: 35rem;
+    padding: .5rem 1rem .7rem .5rem;
+}
+
+.note .note-header {
+    margin: .5rem 1.5rem 1rem;
+}
+
+.note ul {
+    margin: .5rem 0;
+}
+
+.note ul li {
+    margin-bottom: .5rem;
+}
